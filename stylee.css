@@ -1,0 +1,60 @@
+  h3, h4, h5, h6
+  {
+      text-shadow: 1px 1px 2px black, 0 0 1em cornflowerblue, 0 0 0.2em black;
+      color: white;
+      font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+  }
+  h2
+      {
+          text-shadow: 1px 1px 2px black, 0 0 1em blueviolet	, 0 0 0.2em black;
+          color: lightcoral;
+          font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+      }
+      h1
+      {
+          text-shadow: 1px 1px 2px white, 0 0 1em cornflowerblue, 0 0 0.2em blue;
+          color: whitesmoke;
+          font: 1.5em Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+      }
+  body 
+  {
+      margin: 0vw;
+      width: 50vw;
+      height: 20vw;
+      display: BLOCK;
+      background-color: #191970;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+  }
+   main
+  {
+      width: 500px;
+      display: block;
+      flex-direction: column;
+      gap: 20px;
+  }
+  .divBase, .divAltura
+  {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+   input
+   {
+      padding: 10px;
+      font-size: 20px;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      color: #C71585	;
+   }
+  
+   @media (max-width: 500px)
+   {
+      body, input, button {
+          font-size: 15px;
+      }
+  
+      }
